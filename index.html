@@ -1,0 +1,335 @@
+<!--
+   Crafted and Designed By DesignDrastic
+   Author: DesignDrastic
+   Author URL: http://designdrastic.com
+   License URL: http://designdrastic.com/license
+   -->
+<!doctype html>
+<html>
+   <head>
+      <title>Medicare Business</title>
+      <meta name="description" content="Medicare Business HTML5 AND CSS3 Responsive Template">
+      <meta name="keywords" content="dd,design drastic,free Medicare Business template, download Medicare Business, premium template free download, responsive template,html5 and css3 template,free responsive template,free html5 template,html5 template download">
+      <meta name="author" content="DesignDrastic">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <!--Bootstrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+      <!-- Google fonts -->
+      <link href='https://fonts.googleapis.com/css?family=Lato|Poiret+One|Source+Sans+Pro|PT+Sans|Dosis|Ubuntu|Ubuntu+Condensed' rel='stylesheet' type='text/Css'>
+      <!-- Font Awesome Css -->
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+      <!--coustom Css-->
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+      <!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> -->
+      <!-- Owl Carousel -->
+      <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.css">
+      <!-- <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css"> -->
+      <!--default-js-->
+      <script src="js/jquery-2.1.4.min.js"></script>
+      <!--Bootstrap-js-->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="owlcarousel/owl.carousel.min.js"></script>
+      <link rel="icon" type="image/png" href="images/icon.png">
+      <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div class="header">
+      <div class="container">
+         <div class="pull-right">
+            <div class="navbar-action">
+               <div class="navbar-action-center">
+                  <p class="ad-call"><i class="fa fa-phone"></i>&nbsp;Call Us : 999-999-9999</p>
+                  <p class="ad-call"><i class="fa fa-envelope"></i>&nbsp;Email : info@yourcompany.com</p>
+               </div>
+            </div>
+         </div>
+         <div class="pull-left">
+            <div class="logo">
+               <a href="index.html"><img src="images/sushrusha.png" class="img-responsive" width="130"></a>
+            </div>
+         </div>
+         <div class="clearfix"></div>
+      </div>
+      <div class="header_nav" id="home">
+         <div  class="container">
+            <nav class="navbar navbar-default chn-gd">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+               </div>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li class='active'><a href="index.html"><i class="fa fa-home"></i>&nbsp;Home</a></li>
+                     <li ><a href="about.html"><i class="fa fa-info-circle"></i>&nbsp;About Us</a></li>
+                     <li ><a href="services.html"><i class="fa fa-cog"></i>&nbsp;Services</a></li>
+                     <li ><a href="portfolio.html"><i class="fa fa-calendar"></i>&nbsp;Portfolio</a></li>
+                     <li >  <a href="testimonial.html"><i class="fa fa-commenting-o"></i>&nbsp;Testimonial</a></li>
+                     <li >  <a href="contact.html"><i class="fa fa-envelope"></i>&nbsp;Contact Us</a></li>
+                     <!-- <li class="las"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contact us</a></li> -->
+                     <div class="clearfix"></div>
+                     <!--script-->
+                     <script type="text/javascript">
+                        jQuery(document).ready(function($) {
+                        $(".scroll").click(function(event){   
+                        event.preventDefault();
+                        $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+                        });
+                        });
+                        
+                        //    Portfolio jquery
+                        $(document).ready(function(){
+                          $(".filter-button").click(function(){
+                            var value = $(this).attr('data-filter');
+                            if(value == "all")
+                            {
+                              //$('.filter').removeClass('hidden');
+                              $('.filter').show('1000');
+                            }
+                            else
+                            {
+                        //                    $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                        //                    $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                              $(".filter").not('.'+value).hide('3000');
+                              $('.filter').filter('.'+value).show('3000');
+                            }
+                            if ($(".filter-button").removeClass("active")) {
+                               $(this).removeClass("active");
+                              }
+                               $(this).addClass("active");
+                          });
+                              /*if ($(".filter-button").removeClass("active")) {
+                               $(this).removeClass("active");
+                              }
+                               $(this).addClass("active");*/
+                          });
+                     </script>
+                     <!--script-->
+                  </ul>
+                  <!-- /.navbar-collapse -->
+                  <div class="clearfix"></div>
+                  <!-- /.container-fluid -->
+            </nav>
+            </div>
+         </div>
+      </div>
+      <div class="custom-banner">
+         <div class="container">
+            <div class="col-md-offset-6 col-md-6">
+               <div class="owl-carousel">
+                  <div>
+                     <div class="owl-title">Looking for information on medicare and medicare supplemental insurance?</div>
+                     <div class="owl-content">You're at the right place.</div>
+                  </div>
+                  <div>
+                     <div class="owl-title">Your Life Has Changed</div>
+                     <div class="owl-content">Call us for a review of your insurance need</div>
+                  </div>
+                  <div>
+                     <div class="owl-title">Medicare Options Confusing</div>
+                     <div class="owl-content">Let Us Help You Untangle Your Choice</div>
+                  </div>
+                  <div>
+                     <div class="owl-title">Call Us Today</div>
+                     <div class="owl-content">Find the Insurance That Fits Your Needs</div>
+                  </div>
+                  <!-- <div> 
+                     <div class="owl-content">
+                     	Your Content
+                     </div>
+                     </div>
+                     <div>
+                     <div class="owl-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt asperiores accusamus quibusdam sunt pariatur modi veniam dolorem dicta eius tempore excepturi non deserunt fugit enim, inventore sequi rem architecto a.</div>
+                     </div> -->
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- welcome -->
+      <div class="welcome">
+         <div class="container">
+            <h2><span class="underline">Welcome</span></h2>
+            <p class="font-p clr-g text-justify f-s-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ligula ac urna suscipit rutrum. Vivamus varius aliquet mattis. Fusce rhoncus, metus porta sollicitudin lobortis, nulla ante bibendum odio, quis hendrerit tortor odio sed massa. Nulla rutrum, neque nec gravida aliquet, elit urna elementum sem, ac gravida odio tortor suscipit tellus. Nulla facilisi. In efficitur id nibh a consectetur. Etiam elementum mollis volutpat. Nunc auctor mi neque, ut viverra dolor congue at. Praesent vitae mi facilisis, scelerisque ante quis, egestas nisi. Nunc leo sem, lacinia at nisl id, semper sollicitudin ante. Maecenas eu commodo elit. Curabitur sit amet diam nulla. Cras massa leo, laoreet quis neque nec, viverra semper metus.
+            </p>
+            <p class="font-p clr-g text-justify f-s-16">Etiam consequat nisl id lorem pretium vestibulum. Fusce ac euismod purus, vitae vulputate purus. Nullam sollicitudin nulla id nisi convallis elementum nec eu tellus. Fusce vitae metus sapien. Praesent vel tincidunt dui.</p>
+            <div class="clearfix"></div>
+            <br />
+            <div class="col-md-6 p-0 ovr-hvr">
+               <div class="col-md-6 p-0 scale-ovr">
+                  <img src="images/doctor.jpg" class="w-100">
+               </div>
+               <div class="col-md-6">
+                  <p class="font-p text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ligula ac urna suscipit rutrum. Vivamus varius aliquet mattis. Fusce rhoncus, metus porta sollicitudin lobortis, nulla ante bibendum odio, quis hendrerit tortor odio sed massa.</p>
+               </div>
+            </div>
+            <div class="col-md-6 p-0 ovr-hvr">
+               <div class="col-md-6 p-0 scale-ovr">
+                  <img src="images/img4.jpg" class="w-100">
+               </div>
+               <div class="col-md-6">
+                  <p class="font-p text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ligula ac urna suscipit rutrum. Vivamus varius aliquet mattis. Fusce rhoncus, metus porta sollicitudin lobortis, nulla ante bibendum odio, quis hendrerit tortor odio sed massa.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <br />
+      <hr/>
+      <div class="mid-title">
+         <div class="container">
+            <!-- Looking for information on medicare and medicare supplemental insurance?
+               <br />You're at the right place! -->
+            <div class="pull-left">
+               Get in touch
+            </div>
+            <div class="pull-right">
+               <a href="contact.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-offset-4 col-md-4">
+         <div class=""></div>
+      </div>
+      <div class="clearfix"></div>
+      <br />
+      <div class="container">
+         <div class="col-md-12 p-0">
+            <div class="col-md-3 text-center">
+               <div class="feature">
+                  <i class="fa fa-history"></i>
+                  <div class="feature-title">Feature One</div>
+                  <p class="font-p">Medical Advantage Suppliments<br/> Turning 65? newly Eligible? <br/> </p>
+                  <br/>
+                  <a href="#" class="read-more">Read More...</a>
+               </div>
+            </div>
+            <div class="col-md-3 text-center">
+               <div class="feature">
+                  <i class="fa fa-history"></i>
+                  <div class="feature-title">Feature Two</div>
+                  <p class="font-p">To protect your family.</p>
+                  <br/><br/>
+                  <a href="#" class="read-more">Read More...</a>
+               </div>
+            </div>
+            <div class="col-md-3 text-center">
+               <div class="feature">
+                  <i class="fa fa-history"></i>
+                  <div class="feature-title">Feature Three</div>
+                  <p class="font-p">Securing a steady cash flow</p>
+                  <br/><br/>
+                  <a href="#" class="read-more">Read More...</a>
+               </div>
+            </div>
+            <div class="col-md-3 text-center">
+               <div class="feature">
+                  <i class="fa fa-history"></i>
+                  <div class="feature-title">Feature Four</div>
+                  <p class="font-p">Call about your insurance need.</p>
+                  <br/><br/>
+                  <a href="#" class="read-more">Get Started</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <br />
+      <!--  majority -->
+      <!--  footer -->
+      <div class="footer">
+         <div class="container foot-ctn">
+            <div class="col-md-4 col-xs-12 contact-left">
+               <h4>Get in touch</h4>
+               <div class="col-md-12 p-0">
+                  <div class="col-md-1">
+                     <i class="fa fa-map-marker"></i>
+                  </div>
+                  <div class="col-md-10">
+                     your company<br />
+                     address here...
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+               <div class="col-md-12 p-0">
+                  <div class="col-md-1">
+                     <i class="fa fa-phone"></i>
+                  </div>
+                  <div class="col-md-10">
+                     <div class="footer-link">
+                        <a href="tel:999-999-9999">999-999-9999</a>,
+                        <a href="tel:999-999-9999">999-999-9999</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+               <div class="col-md-12 p-0">
+                  <div class="col-md-1">
+                     <i class="fa fa-envelope"></i>
+                  </div>
+                  <div class="col-md-10">
+                     <div class="footer-link">
+                        <a href="mailto:info@yourcompany.com">info@yourcompany.com</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 col-xs-12 contact-left">
+               <h4>Quick links</h4>
+               <ul class="footer-link">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="testimonial.html">Testimonials</a></li>
+               </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 contact-left">
+               <h4>Socialize with us</h4>
+               <div class="social">
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-google-plus"></i>
+               </div>
+            </div>
+            <div class="clearfix"></div>
+            <!-- <div class="copyright">
+               <p>© 2015. All rights reserved. | Built with <i class="fa fa-heart white-clr"></i>&nbsp; by <a href="http://techmatesofttech.com">Techmate Softtech</a></p>
+               </div> -->
+         </div>
+         <div class="container-fluid foot-end">
+            <div class="copyright">
+               <p>© 2017. All rights reserved. | Built with <i class="fa fa-heart white-clr"></i>&nbsp; by <a href="http://designdrastic.com/">Design Drastic</a></p>
+            </div>
+         </div>
+      </div>
+      <!--  footer -->
+      <script>
+         $(document).ready(function(){
+           $(".owl-carousel").owlCarousel({
+             // rtl:true,
+             loop:true,
+             nav: true,
+             items: 1,
+             autoHeight:true
+           });
+         });
+      </script>
+      <script>
+         $('.spin').hover(function(){
+             console.log(this);
+             $('i.fa', this).addClass('fa-spin');
+           }, function(){
+             $('i.fa', this).removeClass('fa-spin');
+           }
+         )
+      </script>
+   </body>
+</html>

@@ -1,0 +1,322 @@
+<!--
+   Crafted and Designed By DesignDrastic
+   Author: DesignDrastic
+   Author URL: http://designdrastic.com
+   License URL: http://designdrastic.com/license
+   -->
+<!doctype html>
+<html>
+   <head>
+      <title>Medicare Business</title>
+      <meta name="description" content="Medicare Business HTML5 AND CSS3 Responsive Template">
+      <meta name="keywords" content="dd,design drastic,free Medicare Business template, download Medicare Business, premium template free download, responsive template,html5 and css3 template,free responsive template,free html5 template,html5 template download">
+      <meta name="author" content="DesignDrastic">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <!--Bootstrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+      <!-- Google fonts -->
+      <link href='https://fonts.googleapis.com/css?family=Lato|Poiret+One|Source+Sans+Pro|PT+Sans|Dosis|Ubuntu|Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+      <!-- Font Awesome Css -->
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+      <!--coustom Css-->
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+      <!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> -->
+      <!-- Owl Carousel -->
+      <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.css">
+      <!-- <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css"> -->
+      <!--default-js-->
+      <script src="js/jquery-2.1.4.min.js"></script>
+      <!--Bootstrap-js-->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="owlcarousel/owl.carousel.min.js"></script>
+      <link rel="icon" type="image/png" href="images/icon.png">
+      <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div class="header">
+      <div class="container">
+         <div class="pull-right">
+            <div class="navbar-action">
+               <div class="navbar-action-center">
+                  <p class="ad-call"><i class="fa fa-phone"></i>&nbsp;Call Us : 999-999-9999</p>
+                  <p class="ad-call"><i class="fa fa-envelope"></i>&nbsp;Email : info@yourcompany.com</p>
+               </div>
+            </div>
+         </div>
+         <div class="pull-left">
+            <div class="logo">
+               <a href="index.html"><img src="images/sushrusha.png" class="img-responsive" width="130"></a>
+            </div>
+         </div>
+         <div class="clearfix"></div>
+      </div>
+      <div class="header_nav" id="home">
+         <div  class="container">
+            <nav class="navbar navbar-default chn-gd">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+               </div>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li ><a href="index.html"><i class="fa fa-home"></i>&nbsp;Home</a></li>
+                     <li ><a href="about.html"><i class="fa fa-info-circle"></i>&nbsp;About Us</a></li>
+                     <li class='active'><a href="services.html"><i class="fa fa-cog"></i>&nbsp;Services</a></li>
+                     <li ><a href="portfolio.html"><i class="fa fa-calendar"></i>&nbsp;Portfolio</a></li>
+                     <li >  <a href="testimonial.html"><i class="fa fa-commenting-o"></i>&nbsp;Testimonial</a></li>
+                     <li >  <a href="contact.html"><i class="fa fa-envelope"></i>&nbsp;Contact Us</a></li>
+                     <!-- <li class="las"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contact us</a></li> -->
+                     <div class="clearfix"></div>
+                     <!--script-->
+                     <script type="text/javascript">
+                        jQuery(document).ready(function($) {
+                        $(".scroll").click(function(event){   
+                        event.preventDefault();
+                        $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+                        });
+                        });
+                        
+                        //    Portfolio jquery
+                        $(document).ready(function(){
+                          $(".filter-button").click(function(){
+                            var value = $(this).attr('data-filter');
+                            if(value == "all")
+                            {
+                              //$('.filter').removeClass('hidden');
+                              $('.filter').show('1000');
+                            }
+                            else
+                            {
+                        //                    $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                        //                    $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                              $(".filter").not('.'+value).hide('3000');
+                              $('.filter').filter('.'+value).show('3000');
+                            }
+                            if ($(".filter-button").removeClass("active")) {
+                               $(this).removeClass("active");
+                              }
+                               $(this).addClass("active");
+                          });
+                              /*if ($(".filter-button").removeClass("active")) {
+                               $(this).removeClass("active");
+                              }
+                               $(this).addClass("active");*/
+                          });
+                     </script>
+                     <!--script-->
+                  </ul>
+                  <!-- /.navbar-collapse -->
+                  <div class="clearfix"></div>
+                  <!-- /.container-fluid -->
+            </nav>
+            </div>
+         </div>
+      </div>
+      <div class="menu-title">
+         <h2><i class="fa fa-hospital-o"></i>&nbsp;Life Insurance</h2>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="text-center content-main-title m-t-10">
+               <h1 class="overclock-fnt">Our Services</h1>
+            </div>
+            <div class="col-lg-4 col-sm-4 m-t-20">
+               <div class="serv-thumb">
+                  <div class="thumbnail hg-thumb">
+                     <div class="fa fa-cog fa-5x fa-c"></div>
+                     <div class="caption hg-cap">
+                        <h4 class="ttl-thumb">Services 1</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quia adipisci laudantium, eos aliquam optio omnis odit unde minus sint nisi voluptates impedit ipsa exercitationem id ab at repellendus blanditiis!</p>
+                        <br />
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 m-t-20">
+               <div class="serv-thumb">
+                  <div class="thumbnail hg-thumb">
+                     <div class="fa fa-cog fa-5x fa-c"></div>
+                     <div class="caption hg-cap">
+                        <h4 class="ttl-thumb">Services 2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quia adipisci laudantium, eos aliquam optio omnis odit unde minus sint nisi voluptates impedit ipsa exercitationem id ab at repellendus blanditiis!</p>
+                        <br />
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 m-t-20">
+               <div class="serv-thumb">
+                  <div class="thumbnail hg-thumb">
+                     <div class="fa fa-cog fa-5x fa-c"></div>
+                     <div class="caption hg-cap">
+                        <h4 class="ttl-thumb">Services 3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quia adipisci laudantium, eos aliquam optio omnis odit unde minus sint nisi voluptates impedit ipsa exercitationem id ab at repellendus blanditiis!</p>
+                        <br />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- <div class="content-title underline m-t-20">
+            <div class="pull-left">
+              <span><i class="fa fa-arrow-circle-o-right fa-4x fa-icon"></i>&nbsp;</span>
+            </div>
+            <h2 class="m-l-40">Term Life Insurance</h2>
+            </div>
+            <div class="col-lg-12 m-t-20">
+            <div class="text-justify-p menu-content">
+              <p class="spin"><i class="fa fa-angle-right"></i>&nbsp;Term Life insurance is life insurance that you pay for during a specified length of time or term – generally one to 30 years. You select the amount of the death benefit or face amount to meet your needs.</p>
+              <p class="spin"><i class="fa fa-angle-right"></i>&nbsp;Premiums, or payments, which can be the same amount or increase with time, must be made monthly, quarterly, semi-annually, or annually. If you die during the term of coverage, the face amount of your policy will be paid to your beneficiaries. Term insurance policies do not accumulate cash value and therefore usually offer lower premiums than other life insurance products with the same face value.</p>
+            </div>
+            </div> -->
+         <div class="clearfix"></div>
+         <!-- <div class="content-title underline m-t-20">
+            <div class="pull-left">
+              <span><i class="fa fa-arrow-circle-o-right fa-4x fa-icon"></i>&nbsp;</span>
+            </div>
+            <h2 class="m-l-40">Universal Life Insurance</h2>
+            </div>
+            <div class="col-lg-12 m-t-20">
+            <div class="text-justify-p menu-content">
+                <p class="spin"><i class="fa fa-angle-right"></i>&nbsp;Universal Life is permanent insurance that has the potential to accumulate cash value. However, it offers additional features and options. For example, you can increase or decrease your policy's face amount to accommodate your changing protection needs. You can also increase or decrease the dollar amount of your premium payments and make additional lump sum payments to your policy. Since a Universal Life policy accrues cash value, you can borrow against this cash value for any purpose.</p>
+                <p class="spin"><i class="fa fa-angle-right"></i>&nbsp;You have the option to skip premium payments if your account has accrued sufficient value because the premiums will be taken from the accrued value. A Universal Life policy also has the potential to earn a higher rate of return than a whole life policy, although there is a risk that your rate of return could drop.</p>
+              </div>
+            </div> -->
+         <div class="clearfix"></div>
+         <!-- <div class="content-title underline m-t-20">
+            <div class="pull-left">
+              <span><i class="fa fa-arrow-circle-o-right fa-4x fa-icon"></i>&nbsp;</span>
+            </div>
+            <h2 class="m-l-40">Whole Life Insurance</h2>
+            </div>
+            <div class="col-lg-12 m-t-20">
+            <div class="text-justify-p menu-content">
+                <p class="spin"><i class="fa fa-angle-right"></i>&nbsp;Whole Life Insurance is life insurance that you own for your entire lifetime. The amount of the death benefit or face amount can be selected to meet your needs.</p>
+                <p class="spin"><i class="fa fa-angle-right"></i>&nbsp;Premiums, or payments, are fixed and can be paid monthly, quarterly, semi-annually, or annually. As more premiums are paid, your policy accumulates a cash value that grows on a tax deferred basis. In essence, whole life is like buying a house versus renting it. The monthly cost is higher than it would be for a term life policy, but with each payment you make you gain equity. You can borrow against a Whole Life policy for any purpose. Loans, however, require you to pay interest and any borrowed amount you do not pay back is deducted from the payout to your beneficiary at the time of your death.</p>
+              </div>
+            </div> -->
+         <div class="clearfix"></div>
+         <!-- <div class="content-title underline m-t-20">
+            <div class="pull-left">
+              <span><i class="fa fa-arrow-circle-o-right fa-4x fa-icon"></i>&nbsp;</span>
+            </div>
+            <h2 class="m-l-40">Final Expense Insurance</h2>
+            </div>
+            <div class="col-lg-12 m-t-20">
+            <div class="text-justify-p menu-content">
+              <p class="spin"><i class="fa fa-angle-right"></i>&nbsp;Your family means the world to you. The last thing you want is to leave them with major expenses after you’re gone. Final Expense insurance is life insurance that helps provide the money they may need to pay medical bills, funeral expenses, legal fees or unpaid bills. It is an insurance policy that lets you decide how your assets are distributed. By planning ahead, you can help protect your loved ones from unnecessary financial stress when you die. And, you can distribute your assets in the manner you decide!</p>
+            </div>
+            </div> --> 
+      </div>
+      <section class="service-ttl">
+         <div class="mid-title">
+            <div class="container">
+               <div class="pull-left">
+                  Get in touch
+               </div>
+               <div class="pull-right">
+                  <a href="contact.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--  majority -->
+      <!--  footer -->
+      <div class="footer">
+         <div class="container foot-ctn">
+            <div class="col-md-4 col-xs-12 contact-left">
+               <h4>Get in touch</h4>
+               <div class="col-md-12 p-0">
+                  <div class="col-md-1">
+                     <i class="fa fa-map-marker"></i>
+                  </div>
+                  <div class="col-md-10">
+                     your company<br />
+                     address here...
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+               <div class="col-md-12 p-0">
+                  <div class="col-md-1">
+                     <i class="fa fa-phone"></i>
+                  </div>
+                  <div class="col-md-10">
+                     <div class="footer-link">
+                        <a href="tel:999-999-9999">999-999-9999</a>,
+                        <a href="tel:999-999-9999">999-999-9999</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+               <div class="col-md-12 p-0">
+                  <div class="col-md-1">
+                     <i class="fa fa-envelope"></i>
+                  </div>
+                  <div class="col-md-10">
+                     <div class="footer-link">
+                        <a href="mailto:info@yourcompany.com">info@yourcompany.com</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 col-xs-12 contact-left">
+               <h4>Quick links</h4>
+               <ul class="footer-link">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="testimonial.html">Testimonials</a></li>
+               </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 contact-left">
+               <h4>Socialize with us</h4>
+               <div class="social">
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-google-plus"></i>
+               </div>
+            </div>
+            <div class="clearfix"></div>
+            <!-- <div class="copyright">
+               <p>© 2015. All rights reserved. | Built with <i class="fa fa-heart white-clr"></i>&nbsp; by <a href="http://techmatesofttech.com">Techmate Softtech</a></p>
+               </div> -->
+         </div>
+         <div class="container-fluid foot-end">
+            <div class="copyright">
+               <p>© 2017. All rights reserved. | Built with <i class="fa fa-heart white-clr"></i>&nbsp; by <a href="http://designdrastic.com/">Design Drastic</a></p>
+            </div>
+         </div>
+      </div>
+      <!--  footer -->
+      <script>
+         $(document).ready(function(){
+           $(".owl-carousel").owlCarousel({
+             // rtl:true,
+             loop:true,
+             nav: true,
+             items: 1,
+             autoHeight:true
+           });
+         });
+      </script>
+      <script>
+         $('.spin').hover(function(){
+             console.log(this);
+             $('i.fa', this).addClass('fa-spin');
+           }, function(){
+             $('i.fa', this).removeClass('fa-spin');
+           }
+         )
+      </script>
+   </body>
+</html>
